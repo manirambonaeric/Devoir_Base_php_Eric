@@ -27,6 +27,26 @@ else
   } 
 
 
+  // la condition if.... else
+$t=25;
+$a=5;
+
+if($t==25)
+{
+    echo '<h2>'.'3)Le nombre tape est le carre de ' . $a;
+}
+else
+
+
+    if($t!=25)
+    {
+        echo '<h2>'.'3)Le nombre tape n\'est pas le carre de ' .$a. '</h2>';
+    }
+    
+ 
+
+
+
 
 
 ?>
