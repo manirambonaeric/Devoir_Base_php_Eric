@@ -11,7 +11,7 @@ function somme($t,$p)
 }
 somme(2,4);
 
-// Pour les booleens 
+// Pour les booleens :Tester la vrai valeur
  
 $i=5;
 
@@ -27,7 +27,7 @@ else
   } 
 
 
-  // la condition if.... else
+  // la condition if.... else : pour tester si la la condition est bien remplie
 $t=25;
 $a=5;
 
@@ -44,6 +44,29 @@ else
     }
     
  
+//la condition switch...case  
+$n=3;
+switch($n) // on teste en suivant la valeur qu'on a
+{
+    case 1: //dans le cas ou $n vaut 1
+    echo '<h2>'.' 4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    case 2://dans le cas ou $n vaut 2
+    echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
+    break;
+    case 3;//dans le cas ou $n vaut 3
+    echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    case 4://dans le cas ou $n vaut 4
+    echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
+    break;
+    case 5://dans le cas ou $n vaut 5
+    echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    
+    default: //sinon le cas n'exite pas
+    echo '<h2>'.'4)Ce chiffre n\'appartient pas parmi les premiers cinq  chiffres entiers naturels '.'</h2>' ;
+}
 
 
 
