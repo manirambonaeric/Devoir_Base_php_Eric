@@ -12,6 +12,20 @@ function somme($t,$p)
 somme(2,4);
 
 // Pour les booleens 
+ 
+$i=5;
+
+if ( $i<=10) {
+   $c=true;
+    echo '<h2>'.'2)Le chiffre tape est inferieur a 10'. '</h2>';
+}
+else
+{
+  $c=false;
+    echo '<h2>'.'2)Le chiffre tape est superieur a 10'. '</h2>';
+
+  } 
+
 
 
 
