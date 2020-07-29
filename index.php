@@ -76,7 +76,14 @@ for($eleve=2;$eleve<=10;$eleve++) //1: initialisation 2:condition 3:incrementati
     echo '<h2>'.'5)Voila le '. $eleve .'è eleve de notre classe </br>'.'</h2>';
 }
 
+// le boucle while :tester  quant est ce que la variable est tape
+$m =0; 
+while($m<=9)
+{
+    echo '<h2>'.'6)Voila  ' . $m  .' est le chiffre qui est compris parmi les neufs premiers nombres entiers';
 
+    $m++ ;
+}
 
 
 ?>
