@@ -76,7 +76,7 @@ for($eleve=2;$eleve<=10;$eleve++) //1: initialisation 2:condition 3:incrementati
     echo '<h2>'.'5)Voila le '. $eleve .'è eleve de notre classe </br>'.'</h2>';
 }
 
-// le boucle while :tester  quant est ce que la variable est tape
+// la boucle while :tester  quant est ce que la variable est tape
 $m =0; 
 while($m<=9)
 {
@@ -85,5 +85,14 @@ while($m<=9)
     $m++ ;
 }
 
+// Boucle do while :Tester combien de fois la variable est utilise
+$k=10;
+do{
+    echo '<h2>'.'7)Voici le premier nombre entier naturel qui a quatre diviseurs' .'<br></br>';
+    
+    $k++;
+}
+
+while($k<10);
 
 ?>
