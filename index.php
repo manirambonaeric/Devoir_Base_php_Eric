@@ -95,4 +95,16 @@ do{
 
 while($k<10);
 
+//Tableau  : stocker dans le tableau
+$tab = array(
+    'Produit' => 'Fanta',
+    'categorie' => 'froid',
+    'contenance' => '32cl'
+
+
+);
+echo  '<h2>'.'8)je suis le '  .$tab ['Produit'].' qui est '  .$tab ['categorie'] .' et je contiens '  .$tab ['contenance']. '</h2>';
+
+
+
 ?>
